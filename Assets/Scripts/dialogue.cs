@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.UIElements;
 
 public class dialogue : MonoBehaviour
 {
@@ -23,12 +24,17 @@ public class dialogue : MonoBehaviour
         }
     }
 
-    public void OnEnable()
+    public void afficheTexte(string text)
     {
+        texte = text;
         monTexte.text = texte;
         monTexte.maxVisibleCharacters = 0;
         maCoroutine = StartCoroutine(texteLettreParLettre());
-        
+    }
+
+    public void OnEnable()
+    {
+
     }
 
     public void OnDisable()

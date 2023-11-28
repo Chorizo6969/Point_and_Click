@@ -7,6 +7,6 @@ public class GestionQuete : MonoBehaviour
 {
    void ValiderQuete()
     {
-
+        print(5);
     }
 }

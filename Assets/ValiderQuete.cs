@@ -5,5 +5,5 @@ using TMPro;
 
 public class ValiderQuete : MonoBehaviour
 {
-    qu
+   
 }
