@@ -8,23 +8,11 @@ public class ChangeCursor : MonoBehaviour
 
     void Start()
     {
-        Cursor.visible = false; // Masquer le curseur par défaut
+        Cursor.SetCursor(cursorTexture, hotSpot, CursorMode.Auto);
     }
 
     void Update()
     {
-        // Vérifier si la souris est sur la droite de l'écran
-        if (Input.mousePosition.x >= Screen.width - sensitivity)
-        {
-            // Changer la texture du curseur
-            Cursor.SetCursor(cursorTexture, hotSpot, CursorMode.ForceSoftware);
-            Cursor.visible = true; // Rendre le curseur visible
-        }
-        else
-        {
-            // Revenir au curseur par défaut
-            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
-            Cursor.visible = false; // Masquer le curseur
-        }
+        //plutôt un gameobject histoire de mettre une loupe
     }
 }
