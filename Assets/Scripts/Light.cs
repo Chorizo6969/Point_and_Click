@@ -1,30 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class Flashlight : MonoBehaviour
+using UnityEngine.UI;
+using static UnityEngine.GraphicsBuffer;
+public class Light : MonoBehaviour
 
 {
-     public GameObject target;
+    private Camera cam;
+    public GameObject target;
+    public void eteindre() 
+    {
+        this.gameObject.GetComponent<Image>().color = Color.black;
+
+    }
+
    
-     private Camera cam;
-
-    public void TargetObject()
-    {
-
-    }
-    void Start()
-    {
-        cam = Camera.main;
-        eteindre();
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    void OnGUI()
+   public void OnGUI()
     {
         //fais avec la doc unity
         Vector3 point = new Vector3();
@@ -37,9 +30,26 @@ public class Flashlight : MonoBehaviour
         point = cam.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, cam.nearClipPlane));
         target.transform.position = mousePos;
     }
-    public void eteindre()
-    {
-        this.gameObject.GetComponent<Image>().color = Color.black;
+ public void allumer()
 
+    {
+      
+        
+           
+            
+            
+            }
+
+
+    void Start()
+    {
+        // eteindre();
+        cam = Camera.main;
+    }
+
+   
+    void Update()
+    {
+        
     }
 }
