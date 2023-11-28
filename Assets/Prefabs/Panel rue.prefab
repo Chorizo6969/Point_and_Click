@@ -113,8 +113,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -688.68054, y: 475.52985}
-  m_SizeDelta: {x: -1377.3611, y: -951.0595}
+  m_AnchoredPosition: {x: -678.2898, y: 411.88623}
+  m_SizeDelta: {x: -1356.5796, y: -823.7724}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2118811880966333060
 CanvasRenderer:
@@ -269,7 +269,6 @@ GameObject:
   - component: {fileID: 833397645365534159}
   - component: {fileID: 1371404962472739349}
   - component: {fileID: 1327830050805745474}
-  - component: {fileID: 9198336796015168209}
   m_Layer: 5
   m_Name: quetes
   m_TagString: Untagged
@@ -393,18 +392,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &9198336796015168209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5957758437013218428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec1f09e470f573a44970da074af76993, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8898645241645906468
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,7 +591,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "interrogez les t\xE9moins ()"
+  m_text: "Interrogez les t\xE9moins ()"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
