@@ -6,7 +6,8 @@ using UnityEngine;
 public class GestionQuetes : MonoBehaviour
 {
     public TMP_Text Quete;
-    public int TemoinsInterroges = 1;
+    public int TemoinsInterroges = 0;
+    public int NBtemoins = 3;
     public void ValiderQuete()
     {
         Quete.text = "ntm";
@@ -14,7 +15,11 @@ public class GestionQuetes : MonoBehaviour
 
     public void InterrogerTemoin()
     {
-        Quete.text = "Interrogez les témoins (" + TemoinsInterroges + "/3)";
         TemoinsInterroges += 1;
+        Quete.text = "Interrogez les témoins (" + TemoinsInterroges + "/" + NBtemoins + ")";
+        if (TemoinsInterroges == NBtemoins)
+        {
+            ValiderQuete();
+        }
     }
 }
