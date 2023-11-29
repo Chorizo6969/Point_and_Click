@@ -12,7 +12,7 @@ public class CursorDetector : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 
     public Vector2 hotSpot = Vector2.zero; // Position du point chaud du curseur
 
-    public float sensitivity = 10f; // Sensibilité de détection sur la droite de l'écran
+    public float sensitivity = 10f; // Sensibilitï¿½ de dï¿½tection sur la droite de l'Ã©cran
 
 
     public void OnPointerEnter(PointerEventData eventData)
