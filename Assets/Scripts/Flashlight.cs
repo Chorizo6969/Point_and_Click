@@ -17,7 +17,7 @@ public class Flashlight : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
-        eteindre();
+        Eteindre();
     }
     // Update is called once per frame
     void Update()
@@ -37,7 +37,7 @@ public class Flashlight : MonoBehaviour
         point = cam.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, cam.nearClipPlane));
         target.transform.position = mousePos;
     }
-    public void eteindre()
+    public void Eteindre()
     {
         this.gameObject.GetComponent<Image>().color = Color.black;
 
