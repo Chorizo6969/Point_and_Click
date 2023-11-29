@@ -12,9 +12,6 @@ public class dialogue : MonoBehaviour
     public float delay;
     Coroutine maCoroutine;
 
-    // Start is called before the first frame update
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.anyKeyDown)
