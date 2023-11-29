@@ -6,20 +6,29 @@ using UnityEngine;
 public class GestionQuetes : MonoBehaviour
 {
     public TMP_Text Quete;
+    public bool isDone = false;
     public int TemoinsInterroges = 0;
-    public int NBtemoins = 3;
-    public void ValiderQuete()
+    public int NbTemoins = 3;
+
+    
+    public void ValiderQuete() //raye le texte de la quête si celle-ci est validée et set "isValid" a true
     {
-        Quete.text = "ntm";
+        Quete.fontStyle = FontStyles.Strikethrough;
+        isDone = true;
+        if (transform.parent.gameObject.GetComponent<QuetesValides>().AllQuetesBien())
+        {
+            Debug.Log("le bouton est apparu à droite.");
+        }
     }
 
-    public void InterrogerTemoin()
+    public void InterrogerTemoin() //update le compteur de témoins intérrogés
     {
         TemoinsInterroges += 1;
-        Quete.text = "Interrogez les témoins (" + TemoinsInterroges + "/" + NBtemoins + ")";
-        if (TemoinsInterroges == NBtemoins)
+        Quete.text = "Interrogez les témoins (" + TemoinsInterroges + "/" + NbTemoins + ")";
+        if (TemoinsInterroges == NbTemoins)
         {
             ValiderQuete();
         }
     }
+    
 }
