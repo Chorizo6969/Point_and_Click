@@ -9,7 +9,7 @@ public class GestionQuetes : MonoBehaviour
     public string original;
     public bool isDone = false;
     public int TemoinsInterroges = 0;
-    public int NbTemoins = 3;
+    public int NbTemoins;
 
     private void Start()
     {
