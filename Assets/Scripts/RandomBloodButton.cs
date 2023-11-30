@@ -7,6 +7,9 @@ using TMPro;
 public class RandomBloodButton : MonoBehaviour
 {
     public TMP_Text randomresult;
+    public GameObject buttonParent;
+    public GameObject panelwrong;
+    public GameObject panelgood;
 
     List<string> randomButton = new List<string> { "O+", "O-", "A+", "A-", "B+", "B-", "AB+", "AB-" };
 
@@ -22,23 +25,19 @@ public class RandomBloodButton : MonoBehaviour
         randomresult.text = randomName;
     }
 
-
-
-
-
-
-
-
-
-
-
-    void Start()
+    public void BloodButtonClick(GameObject self)
     {
-        
-    }
 
-    void Update()
-    {
-        
+            if (self.GetComponent<TMP_Text>().text == randomresult.text)
+            {
+                panelgood.SetActive(true);
+            }
+            else
+            {
+                panelwrong.SetActive(true);
+            }
     }
+    //canvas groupe
+    //Pour chaque button , si le texte est ==  au texte du boutton, alors ouvrir le bon panel, sinon ouvrir mauvais 
+
 }
