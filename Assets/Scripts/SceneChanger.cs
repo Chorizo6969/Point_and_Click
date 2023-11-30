@@ -7,21 +7,9 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
 
-    public void ChangeScene() {
+    public void ChangeScene()
+    {
         SceneManager.LoadScene("basementScene");
-    
-    }
 
-   
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
