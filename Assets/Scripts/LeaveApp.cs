@@ -10,8 +10,4 @@ public class LeaveApp : MonoBehaviour
         Application.Quit();
         Debug.Log("Feur");
     }
-
-
-
-
 }
