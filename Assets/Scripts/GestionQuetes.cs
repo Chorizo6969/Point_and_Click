@@ -6,11 +6,15 @@ using UnityEngine;
 public class GestionQuetes : MonoBehaviour
 {
     public TMP_Text Quete;
+    public string original;
     public bool isDone = false;
     public int TemoinsInterroges = 0;
     public int NbTemoins = 3;
 
-    
+    private void Start()
+    {
+        original = Quete.text;
+    }
     public void ValiderQuete() //raye le texte de la quête si celle-ci est validée et set "isValid" a true
     {
         Quete.fontStyle = FontStyles.Strikethrough;
@@ -23,8 +27,9 @@ public class GestionQuetes : MonoBehaviour
 
     public void InterrogerTemoin() //update le compteur de témoins intérrogés
     {
+
         TemoinsInterroges += 1;
-        Quete.text = "Interrogez les témoins (" + TemoinsInterroges + "/" + NbTemoins + ")";
+        Quete.text = original + "(" + TemoinsInterroges + "/" + NbTemoins + ")";
         if (TemoinsInterroges == NbTemoins)
         {
             ValiderQuete();
