@@ -13,12 +13,7 @@ public class OnEnterGM : MonoBehaviour, IPointerEnterHandler
     public void OnPointerEnter(PointerEventData eventData)
     {
         GameObject.Find("Nb_chances").GetComponent<ChancesRestantes>().ReduireNbChances();
-        ;
     }
 
-    private void Update()
-    {
-        screenPosition = Input.mousePosition;
-    }
-
+ 
 }
