@@ -17,7 +17,7 @@ public class Flashlight : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
-        Eteindre();
+       // Eteindre();
     }
     // Update is called once per frame
     void Update()
