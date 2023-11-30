@@ -23,7 +23,7 @@ public class dialogue : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             if (isPressed)
             {
@@ -32,7 +32,7 @@ public class dialogue : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             StopCoroutine(maCoroutine);
             monTexte.maxVisibleCharacters = monTexte.text.Length;
