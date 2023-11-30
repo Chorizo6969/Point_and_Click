@@ -9,11 +9,12 @@ using UnityEngine.SceneManagement;
 
 public class OnEnterGM : MonoBehaviour, IPointerEnterHandler
 {
-    public GameObject MessageErreur;
+    public GameObject objetActiver;
     public void OnPointerEnter(PointerEventData eventData)
     {
         GameObject.Find("Nb_chances").GetComponent<ChancesRestantes>().ReduireNbChances();
-        MessageErreur.SetActive(true);
+        objetActiver.SetActive(true);
+        
     }
 
  
