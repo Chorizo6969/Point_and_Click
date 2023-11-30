@@ -9,10 +9,16 @@ using UnityEngine.SceneManagement;
 
 public class OnEnterGM : MonoBehaviour, IPointerEnterHandler
 {
-
+    public Vector3 screenPosition;
     public void OnPointerEnter(PointerEventData eventData)
     {
         GameObject.Find("Nb_chances").GetComponent<ChancesRestantes>().ReduireNbChances();
+        ;
+    }
+
+    private void Update()
+    {
+        screenPosition = Input.mousePosition;
     }
 
 }

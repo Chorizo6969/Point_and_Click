@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 
 public class ChancesRestantes : MonoBehaviour
 {
@@ -14,8 +16,9 @@ public class ChancesRestantes : MonoBehaviour
     private void Start()
     {
         TextOriginal = TextNbChances.text;
-        TextNbChances.text = TextOriginal + NbChances.ToString();
+        TextNbChances.text = TextOriginal + " " + NbChances.ToString();
     }
+
     public void ChangeScene(string scene)
     {
         SceneManager.LoadScene(scene);
