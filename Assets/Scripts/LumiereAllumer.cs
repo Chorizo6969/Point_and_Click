@@ -32,7 +32,7 @@ public class LumiereAllumer : MonoBehaviour
         
         // Read pixels from the source RenderTexture, apply the material, copy the updated results to the destination RenderTexture
         Graphics.Blit(RT, dest);
-        Debug.Log("Baise ta mere");
+        //Debug.Log("Baise ta mere");
     }
     // Start is called before the first frame update
     void Start()
