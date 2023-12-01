@@ -7,21 +7,23 @@ RWTexture2D<float4> Result;
 float2 PositionDeLaSouris;
 texture2D Input;
 float TailleDuCercle;
-float Diviseur;
+float multiplicateur;
 float Puissance;
+float ratio;
 
+float2 PositionCercle2;
 [numthreads(8, 8, 1)]
 void CSMain (uint3 id : SV_DispatchThreadID)
 {
-    float2 AB = PositionDeLaSouris - id.xy;
+    float2 AB = PositionDeLaSouris * ratio - id.xy * ratio;
     float Distance = sqrt(AB.x * AB.x + AB.y * AB.y); //voir pythagore
-    Distance *= 0.005;
-    Distance = 1 - Distance;
+    Distance *= multiplicateur;
+    Distance = TailleDuCercle - Distance;
     Distance = max(Distance, 0.0);
-    Distance = pow(Distance, 0.1);
+    Distance = pow(Distance, Puissance);
     
-    
-    
+
+    float2 PositionCercle2;
     
     float4 Couleur = Distance * Input[id.xy];
     Couleur.w = 1;
