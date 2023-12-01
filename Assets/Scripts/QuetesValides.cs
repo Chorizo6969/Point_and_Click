@@ -6,6 +6,7 @@ public class QuetesValides : MonoBehaviour
 {
     [SerializeField]private List<GestionQuetes> ListeGestionQuetes= new List<GestionQuetes>();
     public GameObject ObjetActif;
+    public bool ActiverObjet;
     public bool AllQuetesBien()
     {
         bool resultat = true;
@@ -19,7 +20,11 @@ public class QuetesValides : MonoBehaviour
     {
         if (AllQuetesBien())
         {
+            if (ActiverObjet)
+            {
             ObjetActif.SetActive(true);
+            }
+
         }
     }
 }
