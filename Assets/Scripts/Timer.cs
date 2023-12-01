@@ -37,7 +37,16 @@ public class Timer : MonoBehaviour
             PANEL.GetComponent<Image>().color = new Color(Random.Range(0.0f, 1f), Random.Range(0.0f, 1f), Random.Range(0.0f, 1f));
         }*/
 
-        timerTexte.text = (minute.ToString() + ":" + seconds.ToString());
+        if (seconds < 10)
+        {
+            timerTexte.text = (minute.ToString() + ":0" + seconds.ToString());
+        }
+        else
+        {
+            timerTexte.text = (minute.ToString() + ":" + seconds.ToString());
+        }    
+        
+
         timerTexte.maxVisibleCharacters = 4;
     }
 }
