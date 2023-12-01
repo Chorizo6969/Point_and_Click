@@ -12,6 +12,7 @@ public class ChancesRestantes : MonoBehaviour
     private string TextOriginal;
     public int NbChances = 3;
     public GameObject ActiverObjet;
+    public GameObject DesactiverObjet;
     
     private void Start()
     {
@@ -28,7 +29,7 @@ public class ChancesRestantes : MonoBehaviour
         if (NbChances == 0)
         {
             ActiverObjet.SetActive(true);
-            transform.parent.parent.parent.gameObject.SetActive(false);
+            DesactiverObjet.SetActive(false);
         }
     }
     
