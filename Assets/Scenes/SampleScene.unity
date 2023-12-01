@@ -443,6 +443,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1507848007}
     m_Modifications:
+    - target: {fileID: 1200460977135674528, guid: 4787cd0e11aa7d84c867cd9f7b331bb6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0014648438
+      objectReference: {fileID: 0}
     - target: {fileID: 2237869193127772539, guid: 4787cd0e11aa7d84c867cd9f7b331bb6, type: 3}
       propertyPath: m_Name
       value: Panel Jardin
@@ -462,6 +466,14 @@ PrefabInstance:
     - target: {fileID: 3303648408425076766, guid: 4787cd0e11aa7d84c867cd9f7b331bb6, type: 3}
       propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633805695394437983, guid: 4787cd0e11aa7d84c867cd9f7b331bb6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.007080078
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633805695394437983, guid: 4787cd0e11aa7d84c867cd9f7b331bb6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.5559082
       objectReference: {fileID: 0}
     - target: {fileID: 4201761246384509630, guid: 4787cd0e11aa7d84c867cd9f7b331bb6, type: 3}
       propertyPath: m_Pivot.x
@@ -3519,7 +3531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2136736884291913845, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2463615135704963144, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_Pivot.x
@@ -3708,7 +3720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1077601448604727850, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1804102762182596199, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_Type

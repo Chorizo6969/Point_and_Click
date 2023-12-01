@@ -15,7 +15,6 @@ public class RandomBloodButton : MonoBehaviour
 
     public void ButtonClick()
     {
-        Debug.Log("jsdbviosd");
         PrintBlood();
     }
 
