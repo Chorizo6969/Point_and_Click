@@ -31,11 +31,11 @@ public class Timer : MonoBehaviour
         int minute = (int)(elapsedTime / 60);
         int seconds = (int)(elapsedTime % 60);
 
-        /*if (seconds > 0) 
+        if (seconds > 0) 
         {
             timerTexte.color = new Color(Random.Range(0.0f,1f), Random.Range(0.0f, 1f), Random.Range(0.0f, 1f));
             PANEL.GetComponent<Image>().color = new Color(Random.Range(0.0f, 1f), Random.Range(0.0f, 1f), Random.Range(0.0f, 1f));
-        }*/
+        }
 
         if (seconds < 10)
         {
