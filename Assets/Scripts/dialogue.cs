@@ -23,7 +23,7 @@ public class dialogue : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             if (isPressed)
             {
@@ -32,9 +32,12 @@ public class dialogue : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.Mouse1))
         {
-            StopCoroutine(maCoroutine);
+            if (maCoroutine != null)
+            {
+                StopCoroutine(maCoroutine);
+            }
             monTexte.maxVisibleCharacters = monTexte.text.Length;
         }
     }
@@ -59,6 +62,7 @@ public class dialogue : MonoBehaviour
             fauxPanel.SetActive(false);
             isPressed = false;
             Compte = 0;
+            Destroy(gameObject);
         }
         else
         {
