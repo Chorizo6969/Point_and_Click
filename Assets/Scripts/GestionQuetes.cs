@@ -9,11 +9,17 @@ public class GestionQuetes : MonoBehaviour
     public string original;
     public bool isDone = false;
     public int TemoinsInterroges = 0;
-    public int NbTemoins = 3;
+    public int NbTemoins;
+    public bool IsCompteur;
 
     private void Start()
     {
         original = Quete.text;
+        if (IsCompteur)
+        {
+        Quete.text = original + "(0/" + NbTemoins + ")";
+
+        }
     }
     public void ValiderQuete() //raye le texte de la quête si celle-ci est validée et set "isValid" a true
     {
