@@ -511,6 +511,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3182018318256687320, guid: 4787cd0e11aa7d84c867cd9f7b331bb6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -16
+      objectReference: {fileID: 0}
     - target: {fileID: 3303648408425076766, guid: 4787cd0e11aa7d84c867cd9f7b331bb6, type: 3}
       propertyPath: m_Type
       value: 0
@@ -1570,6 +1574,18 @@ MonoBehaviour:
       - m_Target: {fileID: 500060791}
         m_TargetAssemblyTypeName: GestionQuetes, Assembly-CSharp
         m_MethodName: ValiderQuete
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1632233391}
+        m_TargetAssemblyTypeName: NouvelleQuete, Assembly-CSharp
+        m_MethodName: Ajouterquete
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6460,6 +6476,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601566456}
   m_CullTransparentMesh: 1
+--- !u!1 &1632233390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4416952363027284894, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
+  m_PrefabInstance: {fileID: 9112655890444037118}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1632233391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632233390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6caf39b6e92d75f48985d8cba6d7fbe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1699565000
 GameObject:
   m_ObjectHideFlags: 0
@@ -8515,6 +8548,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1087192920137415785, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -13
+      objectReference: {fileID: 0}
     - target: {fileID: 1804102762182596199, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_Type
       value: 0
@@ -9042,7 +9079,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2253552837005108240, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2081830635}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4416952363027284894, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1632233391}
   m_SourcePrefab: {fileID: 100100000, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
