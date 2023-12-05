@@ -6,7 +6,7 @@ using UnityEngine;
 public class GestionQuetes : MonoBehaviour
 {
     public TMP_Text Quete;
-    public string original;
+    private string original;
     public bool isDone = false;
     public int TemoinsInterroges = 0;
     public int NbTemoins;
