@@ -5,13 +5,18 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     public GameObject ActiverObjet;
+    public GameObject ObjetDesactiver;
+    public GameObject ObjetDesactiver2;
+    public GameObject ObjetDesactiver3;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             ActiverObjet.SetActive(true);
-            gameObject.SetActive(false);
-            GameObject.Find("quete 1").GetComponent<GestionQuetes>().ValiderQuete();
+            ObjetDesactiver.SetActive(false);
+            ObjetDesactiver2.SetActive(false);
+            ObjetDesactiver3.SetActive(false);
+            GameObject.Find("quete 2").GetComponent<GestionQuetes>().ValiderQuete();
         }
     }
 }
