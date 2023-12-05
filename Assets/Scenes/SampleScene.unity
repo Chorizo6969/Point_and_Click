@@ -4179,7 +4179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2647577852093549384, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2888884857002374965, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
       propertyPath: m_fontStyle
@@ -4244,6 +4244,14 @@ PrefabInstance:
     - target: {fileID: 5746042761213974368, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
       propertyPath: m_fontStyle
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750027639424107168, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
+      propertyPath: hotSpot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750027639424107168, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
+      propertyPath: hotSpot.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6526975179436632018, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -11222,7 +11230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 998708338738441250, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2253552837005108240, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
       propertyPath: m_Pivot.x
