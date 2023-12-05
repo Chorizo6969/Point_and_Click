@@ -6,7 +6,7 @@ using UnityEngine;
 public class GestionQuetes : MonoBehaviour
 {
     public TMP_Text Quete;
-    public string original;
+    private string original;
     public bool isDone = false;
     public int TemoinsInterroges = 0;
     public int NbTemoins;
@@ -25,10 +25,6 @@ public class GestionQuetes : MonoBehaviour
     {
         Quete.fontStyle = FontStyles.Strikethrough;
         isDone = true;
-        if (transform.parent.gameObject.GetComponent<QuetesValides>().AllQuetesBien())
-        {
-            Debug.Log("le bouton est apparu à droite.");
-        }
     }
 
     public void InterrogerTemoin() //update le compteur de témoins intérrogés

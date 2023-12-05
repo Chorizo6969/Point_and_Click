@@ -703,7 +703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &171942573
 RectTransform:
   m_ObjectHideFlags: 0
@@ -723,8 +723,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -188.71002}
-  m_SizeDelta: {x: -1400.8062, y: -377.42554}
+  m_AnchoredPosition: {x: 19.565979, y: 10.463013}
+  m_SizeDelta: {x: -926.55, y: -154.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &171942574
 MonoBehaviour:
@@ -1521,8 +1521,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230.1057, y: 332.4}
-  m_SizeDelta: {x: 58.9887, y: 37.767}
+  m_AnchoredPosition: {x: -451.1, y: 431.35}
+  m_SizeDelta: {x: 91.272, y: 62.364}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &402348733
 MonoBehaviour:
@@ -1583,18 +1583,6 @@ MonoBehaviour:
       - m_Target: {fileID: 500060791}
         m_TargetAssemblyTypeName: GestionQuetes, Assembly-CSharp
         m_MethodName: ValiderQuete
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1632233391}
-        m_TargetAssemblyTypeName: NouvelleQuete, Assembly-CSharp
-        m_MethodName: Ajouterquete
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1886,18 +1874,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 500060791}
-        m_TargetAssemblyTypeName: GestionQuetes, Assembly-CSharp
-        m_MethodName: ValiderQuete
-        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3604,7 +3580,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Quete: {fileID: 866415436}
-  original: 
   isDone: 0
   TemoinsInterroges: 0
   NbTemoins: 2
@@ -4882,7 +4857,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Quete: {fileID: 1223856461}
-  original: 
   isDone: 0
   TemoinsInterroges: 0
   NbTemoins: 2
@@ -5729,8 +5703,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230.1057, y: 332.4}
-  m_SizeDelta: {x: 58.9887, y: 37.767}
+  m_AnchoredPosition: {x: -451.088, y: 431.352}
+  m_SizeDelta: {x: 91.272, y: 62.364}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489494712
 MonoBehaviour:
@@ -6486,23 +6460,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601566456}
   m_CullTransparentMesh: 1
---- !u!1 &1632233390 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4416952363027284894, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
-  m_PrefabInstance: {fileID: 9112655890444037118}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1632233391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632233390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6caf39b6e92d75f48985d8cba6d7fbe8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1699565000
 GameObject:
   m_ObjectHideFlags: 0
@@ -6537,8 +6494,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000005722, y: 21.383}
-  m_SizeDelta: {x: 405.479, y: 270.971}
+  m_AnchoredPosition: {x: -10.761, y: 24.97}
+  m_SizeDelta: {x: 847.917, y: 330.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1699565002
 MonoBehaviour:
@@ -6589,10 +6546,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.55
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -7679,8 +7636,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -188.71002}
-  m_SizeDelta: {x: -1400.8062, y: -377.4255}
+  m_AnchoredPosition: {x: 19.572998, y: 10.463989}
+  m_SizeDelta: {x: -926.536, y: -154.587}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1884236588
 MonoBehaviour:
@@ -7754,8 +7711,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.40002, y: 24.3604}
-  m_SizeDelta: {x: 200, y: 229.2793}
+  m_AnchoredPosition: {x: -8.729, y: 18.531}
+  m_SizeDelta: {x: 836.301, y: 307.567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1915466910
 MonoBehaviour:
@@ -7777,9 +7734,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'OH OH OH
-
-    Il y a une bombe chez toi !'
+  m_text: "Bonsoir inspecteur. J'ai judicieusement plac\xE9 une bombe dans votre
+    r\xE9sidence. Amusez vous bien ;)\nP.S au dos de cette lettre ce trouve une \xE9nigme.
+    La r\xE9soudre vous am\xE8nera directement a moi pour d\xE9samorcer le dispositif.
+    Mais vous pouvez \xE9galement choisir de rentrer chez vous pour le faire de vos
+    mains :P bonne chance !"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9218,10 +9177,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2253552837005108240, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2081830635}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4416952363027284894, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1632233391}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

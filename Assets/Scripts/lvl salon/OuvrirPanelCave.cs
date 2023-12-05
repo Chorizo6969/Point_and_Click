@@ -11,6 +11,7 @@ public class NewBehaviourScript : MonoBehaviour
         {
             ActiverObjet.SetActive(true);
             gameObject.SetActive(false);
+            GameObject.Find("quete 1").GetComponent<GestionQuetes>().ValiderQuete();
         }
     }
 }
