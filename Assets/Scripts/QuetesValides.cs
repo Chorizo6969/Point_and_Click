@@ -8,6 +8,7 @@ public class QuetesValides : MonoBehaviour
     public GameObject ObjetActif;
     public GameObject ObjetInactif;
     public bool DesactiverObjet;
+    public bool ActiverObjet = true;
     public bool AllQuetesBien()
     {
         bool resultat = true;
@@ -25,7 +26,11 @@ public class QuetesValides : MonoBehaviour
             {
                 ObjetInactif.SetActive(false);
             }
-            ObjetActif.SetActive(true);
+            if (ActiverObjet)
+            {
+                ObjetActif.SetActive(true);
+            }
+
         }
     }
 }

@@ -25,6 +25,10 @@ public class GestionQuetes : MonoBehaviour
     {
         Quete.fontStyle = FontStyles.Strikethrough;
         isDone = true;
+        if (transform.parent.gameObject.GetComponent<QuetesValides>().AllQuetesBien())
+        {
+            Debug.Log("le bouton est apparu à droite.");
+        }
     }
 
     public void InterrogerTemoin() //update le compteur de témoins intérrogés
