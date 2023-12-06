@@ -5726,6 +5726,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079557706}
   m_CullTransparentMesh: 1
+--- !u!1 &1087513099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3429891000383959715, guid: d051fa789104a5948b86e2397abf8714, type: 3}
+  m_PrefabInstance: {fileID: 6029461392961853575}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1087513104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087513099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7471dcb2461306448e0e22fc656c60c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 31743d82144f5d04a8270d6fb366c9a8, type: 3}
+  main_cursorTexture: {fileID: 2800000, guid: f03f5af5aa662814aa11ac12ca225758, type: 3}
+  hotSpot: {x: 0, y: 0}
+  sensitivity: 10
 --- !u!1 &1090418555
 GameObject:
   m_ObjectHideFlags: 0
@@ -10750,6 +10771,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 34660513}
+    - target: {fileID: 1106239667764196452, guid: d051fa789104a5948b86e2397abf8714, type: 3}
+      propertyPath: main_cursorTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: f03f5af5aa662814aa11ac12ca225758, type: 3}
     - target: {fileID: 2136736884291913845, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_Name
       value: Panel rue
@@ -11069,6 +11094,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4354968111365242349, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1964552877}
+    - targetCorrespondingSourceObject: {fileID: 3429891000383959715, guid: d051fa789104a5948b86e2397abf8714, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1087513104}
   m_SourcePrefab: {fileID: 100100000, guid: d051fa789104a5948b86e2397abf8714, type: 3}
 --- !u!1001 &7222463628130257628
 PrefabInstance:
