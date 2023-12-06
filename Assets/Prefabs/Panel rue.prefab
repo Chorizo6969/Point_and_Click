@@ -734,11 +734,11 @@ RectTransform:
   m_Children:
   - {fileID: 5257636176136172216}
   - {fileID: 5489851270101670856}
-  - {fileID: 2653944725453869622}
   - {fileID: 454977750823210720}
   - {fileID: 8377146020473340162}
   - {fileID: 4482063029054531034}
   - {fileID: 3561289219938163201}
+  - {fileID: 2653944725453869622}
   - {fileID: 8847361691252276640}
   - {fileID: 1686688431516127817}
   m_Father: {fileID: 0}
@@ -986,6 +986,9 @@ MonoBehaviour:
   - {fileID: 7489134374675385171}
   - {fileID: 4776506055141271491}
   ObjetActif: {fileID: 6647898764648293053}
+  ObjetInactif: {fileID: 0}
+  DesactiverObjet: 0
+  ActiverObjet: 1
 --- !u!1 &2842990935294734630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,10 +1137,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Quete: {fileID: 9096567727386880607}
-  original: 
   isDone: 0
   TemoinsInterroges: 0
   NbTemoins: 3
+  IsCompteur: 0
 --- !u!1 &3429891000383959715
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,8 +1153,9 @@ GameObject:
   - component: {fileID: 4857046380444968918}
   - component: {fileID: 5884169230435664155}
   - component: {fileID: 3778530591099155074}
+  - component: {fileID: 4436118028577445728}
   m_Layer: 5
-  m_Name: Button
+  m_Name: poubelle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1258,6 +1262,22 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4436118028577445728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3429891000383959715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7471dcb2461306448e0e22fc656c60c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 31743d82144f5d04a8270d6fb366c9a8, type: 3}
+  main_cursorTexture: {fileID: 2800000, guid: f03f5af5aa662814aa11ac12ca225758, type: 3}
+  hotSpot: {x: 0, y: 0}
+  sensitivity: 10
 --- !u!1 &3629723450348678155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,7 +1582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: 31743d82144f5d04a8270d6fb366c9a8, type: 3}
-  main_cursorTexture: {fileID: 2800000, guid: c911b3a9c2659334b8397796223df1b3, type: 3}
+  main_cursorTexture: {fileID: 2800000, guid: f03f5af5aa662814aa11ac12ca225758, type: 3}
   hotSpot: {x: 0, y: 0}
   sensitivity: 10
 --- !u!1 &5020102900827200780
@@ -2491,10 +2511,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Quete: {fileID: 354451476243937734}
-  original: 
   isDone: 0
   TemoinsInterroges: 0
   NbTemoins: 3
+  IsCompteur: 0
 --- !u!1 &9155352786239808613
 GameObject:
   m_ObjectHideFlags: 0
@@ -2643,7 +2663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Quete: {fileID: 2029816549674695962}
-  original: 
   isDone: 0
   TemoinsInterroges: 0
   NbTemoins: 3
+  IsCompteur: 0
