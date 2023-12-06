@@ -10884,6 +10884,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1507848007}
     m_Modifications:
+    - target: {fileID: 354451476243937734, guid: d051fa789104a5948b86e2397abf8714, type: 3}
+      propertyPath: m_text
+      value: Trouver un indice sur l'assassin
+      objectReference: {fileID: 0}
     - target: {fileID: 772273096986074959, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -10951,8 +10955,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 922120078842567473, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[2]
-      value: "Peut-\xEAtre, j'ai vu quelq'un courir dans la direction oppos\xE9e
-        en arrivant ici.. Il avait l'air bless\xE9."
+      value: "T\xE9moin : Peut-\xEAtre, j'ai vu quelq'un courir dans la direction
+        oppos\xE9e en arrivant ici.. Il avait l'air bless\xE9."
       objectReference: {fileID: 0}
     - target: {fileID: 922120078842567473, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[3]
@@ -11343,7 +11347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8956603072443605297, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[3]
-      value: "Inspecteur : Tr\xE8s bien, Merci Monsieur"
+      value: "Vous : Tr\xE8s bien, Merci Monsieur"
       objectReference: {fileID: 0}
     - target: {fileID: 9096567727386880607, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_text
