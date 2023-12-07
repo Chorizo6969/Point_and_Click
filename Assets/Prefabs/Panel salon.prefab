@@ -282,10 +282,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Quete: {fileID: 2686615019717890966}
-  original: 
   isDone: 0
   TemoinsInterroges: 0
   NbTemoins: 2
+  IsCompteur: 0
 --- !u!1 &998708338738441250
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,6 +694,9 @@ MonoBehaviour:
   ListeGestionQuetes:
   - {fileID: 5321588518865869322}
   ObjetActif: {fileID: 0}
+  ObjetInactif: {fileID: 0}
+  DesactiverObjet: 0
+  ActiverObjet: 1
 --- !u!1 &5660978562108516515
 GameObject:
   m_ObjectHideFlags: 0
