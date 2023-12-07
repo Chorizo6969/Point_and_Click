@@ -1022,7 +1022,7 @@ MonoBehaviour:
   monTexte: {fileID: 1751127350}
   Delay: 0.07
   dialogueList:
-  - "Vous \xEAtes rentr\xE9 chez vous pour d\xE9samorcer la mombe. Il ne vous reste
+  - "Vous \xEAtes rentr\xE9 chez vous pour d\xE9samorcer la bombe. Il ne vous reste
     que 3 minutes pour la trouver et la d\xE9samorcer !"
   - "Elle est surement cach\xE9e derri\xE8re un objet dans cette pi\xE8ce.. Mais
     o\xF9 ?"
@@ -4793,7 +4793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2647577852093549384, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2888884857002374965, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
       propertyPath: m_margin.z
@@ -5062,6 +5062,14 @@ PrefabInstance:
     - target: {fileID: 7819803797476063911, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033883002941247541, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
+      propertyPath: hotSpot.x
+      value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033883002941247541, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
+      propertyPath: hotSpot.y
+      value: 53
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -13570,7 +13578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8449087554056423435, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8795766396880655122, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -13634,7 +13642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 998708338738441250, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2253552837005108240, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
       propertyPath: m_Pivot.x
