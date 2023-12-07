@@ -2458,7 +2458,7 @@ MonoBehaviour:
   monTexte: {fileID: 1737769688}
   Delay: 0.07
   dialogueList:
-  - "Apr\xE8s avoir rassembl\xE9 les preuves, vous returnez au commissariat pour
+  - "Apr\xE8s avoir rassembl\xE9 les preuves, vous retournez au commissariat pour
     les analyser."
   fauxPanel: {fileID: 1513461648}
   Detruire: 0
@@ -2502,7 +2502,7 @@ MonoBehaviour:
   dialogueList:
   - "Assistant : Inspecteur ! Un homme est mort au milieu de cette rue... Le crime
     est plutot r\xE9cent."
-  - "Vous : Tr\xE8s bien, je vais mener mon enqu\xEAte vous  pouvez disposer."
+  - "Vous : Tr\xE8s bien, je vais mener mon enqu\xEAte . Vous pouvez disposer."
   - "Assistant : Tr\xE8s bien monsieur. Bon courage."
   fauxPanel: {fileID: 636706955}
   Detruire: 0
@@ -11276,10 +11276,10 @@ MonoBehaviour:
   monTexte: {fileID: 1033320720}
   Delay: 0.07
   dialogueList:
-  - Vous fouiller le corps de la victime.
+  - Vous fouillez le corps de la victime.
   - "Vous d\xE9nichez une carte d'identit\xE9 dans sa poche, c'est une pi\xE8ce a
     convictions."
-  - "Une ambulance viens r\xE9cup\xE9rer le corps."
+  - "Une ambulance vient r\xE9cup\xE9rer le corps."
   fauxPanel: {fileID: 636706955}
   Detruire: 1
 --- !u!114 &1964552885 stripped
@@ -12405,7 +12405,7 @@ PrefabInstance:
     - target: {fileID: 922120078842567473, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[1]
       value: "Vous : Je suis d\xE9sol\xE9. Avez-vous de quelconques informations
-        a partager"
+        a partager ?"
       objectReference: {fileID: 0}
     - target: {fileID: 922120078842567473, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[2]
@@ -12418,7 +12418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 922120078842567473, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[4]
-      value: "L'homme s'\xE9loigne"
+      value: "L'homme s'\xE9loigne."
       objectReference: {fileID: 0}
     - target: {fileID: 1106239667764196452, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: main_cursorTexture
@@ -12784,8 +12784,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6373192395361498290, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[2]
-      value: "T\xE9moin : J'ai entendu du bruit vers 19h hier. \xE7a ne m'as pas
-        paru suspect cependant"
+      value: "T\xE9moin : J'ai entendu du bruit vers 19h hier. Cela ne m'a cependant
+        pas sembl\xE9 suspect."
       objectReference: {fileID: 0}
     - target: {fileID: 6373192395361498290, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[3]
@@ -12793,7 +12793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6373192395361498290, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[4]
-      value: "L'homme s'\xE9loigne"
+      value: "L'homme s'\xE9loigne."
       objectReference: {fileID: 0}
     - target: {fileID: 6647898764648293053, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_Name
@@ -12993,7 +12993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8956603072443605297, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[4]
-      value: "L'homme s'\xE9loigne"
+      value: "L'homme s'\xE9loigne."
       objectReference: {fileID: 0}
     - target: {fileID: 9096567727386880607, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_text
@@ -13635,7 +13635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 998708338738441250, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2253552837005108240, guid: d07f5970362de6f45886962c7737ff7b, type: 3}
       propertyPath: m_Pivot.x

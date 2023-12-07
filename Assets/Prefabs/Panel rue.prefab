@@ -381,7 +381,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monTexte: {fileID: 590558663797306059}
-  texte: 
   Delay: 0.07
   dialogueList:
   - dialogue 1
@@ -389,6 +388,7 @@ MonoBehaviour:
   - dialogue 3
   - dialogue 4
   fauxPanel: {fileID: 1331303044135516084}
+  Detruire: 1
 --- !u!1 &1555540350071204994
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,7 +694,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monTexte: {fileID: 590558663797306059}
-  texte: 
   Delay: 0.07
   dialogueList:
   - didialogue 1
@@ -702,6 +701,7 @@ MonoBehaviour:
   - 'didialogue 3 '
   - didialogue 4
   fauxPanel: {fileID: 1331303044135516084}
+  Detruire: 1
 --- !u!1 &2136736884291913845
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,8 +739,8 @@ RectTransform:
   - {fileID: 4482063029054531034}
   - {fileID: 3561289219938163201}
   - {fileID: 2653944725453869622}
-  - {fileID: 8847361691252276640}
   - {fileID: 1686688431516127817}
+  - {fileID: 8847361691252276640}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -986,7 +986,9 @@ MonoBehaviour:
   - {fileID: 7489134374675385171}
   - {fileID: 4776506055141271491}
   ObjetActif: {fileID: 6647898764648293053}
+  ObjetDialogue: {fileID: 0}
   ObjetInactif: {fileID: 0}
+  DialogueActif: 0
   DesactiverObjet: 0
   ActiverObjet: 1
 --- !u!1 &2842990935294734630
@@ -2279,7 +2281,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monTexte: {fileID: 590558663797306059}
-  texte: 
   Delay: 0.07
   dialogueList:
   - "t\xE9moin 1 : oui bonjur, nique ta mere"
@@ -2287,6 +2288,7 @@ MonoBehaviour:
   - "t\xE9moin 1 : non, allez vous faire foutre"
   - 'inspecteur : d''accord merci'
   fauxPanel: {fileID: 1331303044135516084}
+  Detruire: 1
 --- !u!1 &7883604192550703835
 GameObject:
   m_ObjectHideFlags: 0
