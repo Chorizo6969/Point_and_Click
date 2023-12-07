@@ -13,6 +13,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            GameObject.Find("SoundBox Trappe").GetComponent<AudioSource>().Play();
             ActiverObjet.SetActive(true);
             ObjetDialogue.SetActive(true);
             ObjetDesactiver.SetActive(false);
