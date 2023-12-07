@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
+    public GameObject scene;
 
     public void ChangeScene()
     {

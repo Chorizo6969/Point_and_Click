@@ -6,7 +6,9 @@ public class QuetesValides : MonoBehaviour
 {
     [SerializeField]private List<GestionQuetes> ListeGestionQuetes= new List<GestionQuetes>();
     public GameObject ObjetActif;
+    public GameObject ObjetDialogue;
     public GameObject ObjetInactif;
+    public bool DialogueActif;
     public bool DesactiverObjet;
     public bool ActiverObjet = true;
     public bool AllQuetesBien()
@@ -29,6 +31,10 @@ public class QuetesValides : MonoBehaviour
             if (ActiverObjet)
             {
                 ObjetActif.SetActive(true);
+            }
+            if (DialogueActif)
+            {
+                ObjetDialogue.SetActive(true);
             }
 
         }

@@ -10,12 +10,12 @@ using System;
 public class dialogue : MonoBehaviour
 {
     public TMP_Text monTexte;
-    public string texte;
     Coroutine maCoroutine;
     public float Delay;
     private int Compte = 0;
     public List<string> dialogueList;
     public GameObject fauxPanel;
+    public bool Detruire = true;
 
     private string current;
 
@@ -62,7 +62,10 @@ public class dialogue : MonoBehaviour
             fauxPanel.SetActive(false);
             isPressed = false;
             Compte = 0;
-            Destroy(gameObject);
+            if (Detruire)
+            {
+                Destroy(gameObject);
+            }
         }
         else
         {
