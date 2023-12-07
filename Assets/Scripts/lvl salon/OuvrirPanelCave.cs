@@ -5,6 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     public GameObject ActiverObjet;
+    public GameObject ObjetDialogue;
     public GameObject ObjetDesactiver;
     public GameObject ObjetDesactiver2;
     public GameObject ObjetDesactiver3;
@@ -13,6 +14,7 @@ public class NewBehaviourScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             ActiverObjet.SetActive(true);
+            ObjetDialogue.SetActive(true);
             ObjetDesactiver.SetActive(false);
             ObjetDesactiver2.SetActive(false);
             ObjetDesactiver3.SetActive(false);
