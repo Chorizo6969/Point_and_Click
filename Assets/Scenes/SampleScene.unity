@@ -483,9 +483,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c0ab7070bc8f5f940aea5ad8f86d1621, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.06
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1278,7 +1278,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ab9109e7d2b815b40adfa65eb6a8be31, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.25
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2458,7 +2458,7 @@ MonoBehaviour:
   monTexte: {fileID: 1737769688}
   Delay: 0.07
   dialogueList:
-  - "Apr\xE8s avoir rassembl\xE9 les preuves, vous returnez au commissariat pour
+  - "Apr\xE8s avoir rassembl\xE9 les preuves, vous retournez au commissariat pour
     les analyser."
   fauxPanel: {fileID: 1513461648}
   Detruire: 0
@@ -2501,9 +2501,9 @@ MonoBehaviour:
   Delay: 0.07
   dialogueList:
   - "Assistant : Inspecteur ! Un homme est mort au milieu de cette rue... Le crime
-    est pl\xFBtot r\xE9cent."
-  - "Vous : Tr\xE8s bien, je vais mener mon enqu\xEAte, vous  pouvez disposer."
-  - "Assistant : Tr\xE8s bien monsieur. Bon courage !"
+    est plutot r\xE9cent."
+  - "Vous : Tr\xE8s bien, je vais mener mon enqu\xEAte . Vous pouvez disposer."
+  - "Assistant : Tr\xE8s bien monsieur. Bon courage."
   fauxPanel: {fileID: 636706955}
   Detruire: 0
 --- !u!114 &428859547
@@ -4848,10 +4848,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 8.01
       objectReference: {fileID: 0}
-    - target: {fileID: 7352017603708628691, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
-      propertyPath: m_text
-      value: Monsieur Poilu
-      objectReference: {fileID: 0}
     - target: {fileID: 7819803797476063911, guid: 373bf8c50292629459fd78c963005a1b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6092,7 +6088,7 @@ MonoBehaviour:
   - Vous soulevez le couvercle de la poubelle.
   - "Quelle surprise ? Un bandage ensanglant\xE9. La victime a du se d\xE9battre
     et blesser l'agresseur."
-  - "Je devrais pouvoir trouver l'identit\xE9 du meurtrier gr\xE2ce \xE0 \xE7a."
+  - "Je devrais pouvoir trouver l'identit\xE9 du meurtrier grace \xE0 \xE7a."
   fauxPanel: {fileID: 636706955}
   Detruire: 1
 --- !u!1 &1090418555
@@ -6278,7 +6274,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4bc2fd33f2f29dd4798f424a0eaf9582, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.25
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -10828,12 +10824,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5349187845086316390, guid: 77a58511aa06e0f4e99a8457d2ccb232, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 167.48474
-      objectReference: {fileID: 0}
-    - target: {fileID: 5349187845086316390, guid: 77a58511aa06e0f4e99a8457d2ccb232, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 5.159668
+      value: 5.159607
       objectReference: {fileID: 0}
     - target: {fileID: 8324652330504411722, guid: 77a58511aa06e0f4e99a8457d2ccb232, type: 3}
       propertyPath: m_Pivot.x
@@ -11285,9 +11277,9 @@ MonoBehaviour:
   Delay: 0.07
   dialogueList:
   - Vous fouillez le corps de la victime.
-  - "Vous d\xE9nichez une carte d'identit\xE9 dans sa poche, c'est une pi\xE8ce \xE0
-    convictions !"
-  - "Une ambulance viens r\xE9cup\xE9rer le corps..."
+  - "Vous d\xE9nichez une carte d'identit\xE9 dans sa poche, c'est une pi\xE8ce a
+    convictions."
+  - "Une ambulance vient r\xE9cup\xE9rer le corps."
   fauxPanel: {fileID: 636706955}
   Detruire: 1
 --- !u!114 &1964552885 stripped
@@ -12413,7 +12405,7 @@ PrefabInstance:
     - target: {fileID: 922120078842567473, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[1]
       value: "Vous : Je suis d\xE9sol\xE9. Avez-vous de quelconques informations
-        a partager"
+        a partager ?"
       objectReference: {fileID: 0}
     - target: {fileID: 922120078842567473, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[2]
@@ -12426,7 +12418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 922120078842567473, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[4]
-      value: "L'homme s'\xE9loigne..."
+      value: "L'homme s'\xE9loigne."
       objectReference: {fileID: 0}
     - target: {fileID: 1106239667764196452, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: main_cursorTexture
@@ -12792,8 +12784,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6373192395361498290, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[2]
-      value: "T\xE9moin : J'ai entendu du bruit vers 19h hier. \xE7a ne m'a pas paru
-        suspect cependant"
+      value: "T\xE9moin : J'ai entendu du bruit vers 19h hier. Cela ne m'a cependant
+        pas sembl\xE9 suspect."
       objectReference: {fileID: 0}
     - target: {fileID: 6373192395361498290, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[3]
@@ -12801,7 +12793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6373192395361498290, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[4]
-      value: "L'homme s'\xE9loigne..."
+      value: "L'homme s'\xE9loigne."
       objectReference: {fileID: 0}
     - target: {fileID: 6647898764648293053, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_Name
@@ -13001,7 +12993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8956603072443605297, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: dialogueList.Array.data[4]
-      value: "L'homme s'\xE9loigne..."
+      value: "L'homme s'\xE9loigne."
       objectReference: {fileID: 0}
     - target: {fileID: 9096567727386880607, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_text
@@ -13067,17 +13059,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1507848007}
     m_Modifications:
-    - target: {fileID: 31348816910513498, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -917.5802
-      objectReference: {fileID: 0}
-    - target: {fileID: 31348816910513498, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 54398235892066644, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -19.078003
+      value: -19.077972
       objectReference: {fileID: 0}
     - target: {fileID: 56363112498264947, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_IsActive
@@ -13141,7 +13125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1758402683255493718, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -18
+      value: -17.99997
       objectReference: {fileID: 0}
     - target: {fileID: 1804102762182596199, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_Type
@@ -13495,15 +13479,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6899934767163648979, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6899934767163648979, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6899934767163648979, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6899934767163648979, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -13535,7 +13519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7434268946643482354, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -19.078003
+      value: -19.077972
       objectReference: {fileID: 0}
     - target: {fileID: 7509871275073950215, guid: 0d0aedfd5c09c1a4fadac797158d0c24, type: 3}
       propertyPath: m_SizeDelta.x
