@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 650 kg
+  m_text: 73 kg
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 86f3e1b0f2d5d1244ba401a40e3e8fa8, type: 2}
   m_sharedMaterial: {fileID: 8071685074423495845, guid: 86f3e1b0f2d5d1244ba401a40e3e8fa8, type: 2}
@@ -207,7 +207,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9917985889dc42b4e9ce2e47815c4b24, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d90610435508435409feb9df6202ac87, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -279,7 +279,9 @@ MonoBehaviour:
   ListeGestionQuetes:
   - {fileID: 2343912195047004601}
   ObjetActif: {fileID: 8449087554056423435}
+  ObjetDialogue: {fileID: 0}
   ObjetInactif: {fileID: 0}
+  DialogueActif: 0
   DesactiverObjet: 0
   ActiverObjet: 1
 --- !u!1 &114915636894832491
@@ -1339,7 +1341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Delahaix
+  m_text: Bonneau
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 86f3e1b0f2d5d1244ba401a40e3e8fa8, type: 2}
   m_sharedMaterial: {fileID: 8071685074423495845, guid: 86f3e1b0f2d5d1244ba401a40e3e8fa8, type: 2}
@@ -3325,8 +3327,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207, y: 385.99997}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -510.812, y: 369.882}
+  m_SizeDelta: {x: 526.377, y: 94.417}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7771688668660502988
 CanvasRenderer:
@@ -3356,17 +3358,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Empreinte digital :'
+  m_text: 'Analysez l''empreinte trouver avec celle de suspect potentiel : '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 36e24a56fb9ca4642b76d5c48f9ca01a, type: 2}
+  m_sharedMaterial: {fileID: 5807369520725507973, guid: 36e24a56fb9ca4642b76d5c48f9ca01a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4074,7 +4076,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9bacbf8b36b517640ac893f8e22da577, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6dda555ef2de1484485517a9c972fc36, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4762,7 +4764,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Luc
+  m_text: 'Argann
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 86f3e1b0f2d5d1244ba401a40e3e8fa8, type: 2}
   m_sharedMaterial: {fileID: 8071685074423495845, guid: 86f3e1b0f2d5d1244ba401a40e3e8fa8, type: 2}
