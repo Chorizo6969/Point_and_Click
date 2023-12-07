@@ -10,7 +10,7 @@ public class RandomPrint : MonoBehaviour
     public GameObject buttonParent;
     public GameObject PanelWrong;
     public GameObject PanelGood;
-
+    public GameObject[] Print_Image;
     List<string> RandomButton = new List<string> { "Empreinte 1", "Empreinte 2", "Empreinte 3", "Empreinte 4", "Empreinte 5", "Empreinte 6", "Empreinte 7", "Empreinte 8" };
 
     public void ButtonClick()
@@ -23,10 +23,24 @@ public class RandomPrint : MonoBehaviour
     {
         string randomName = RandomButton[Random.Range(0, RandomButton.Count)];
         randomresult.text = randomName;
+        PrintImages(randomName);
     }
 
-    public void Update(){
-        
+    private void PrintImages(string randomName)
+    {
+        foreach (GameObject image in Print_Image)
+        {
+            image.SetActive(false);
+        }
+
+        for (int i = 0; i < RandomButton.Count; i++)
+        {
+            if (randomName == RandomButton[i])
+            {
+                Print_Image[i].SetActive(true);
+                break;
+            }
+        }
     }
 
     public void PrintButtonClick(GameObject self)
