@@ -4,12 +4,14 @@ using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine.UI;
+using UnityEditor.EditorTools;
 
 public class Timer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI timerTexte;
     float elapsedTime = 180;
     public GameObject PANEL;
+    public GameObject GameOver;
 
     // Update is called once per frame
     void Update()
@@ -46,6 +48,10 @@ public class Timer : MonoBehaviour
             timerTexte.text = (minute.ToString() + ":" + seconds.ToString());
         }    
         
+        if (seconds <= 0 & minute <= 0)
+        {
+            GameOver.SetActive(true);
+        }
 
         timerTexte.maxVisibleCharacters = 4;
     }
