@@ -26,4 +26,9 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+
+    public void ChangeScene_BombEnding()
+    {
+        SceneManager.LoadScene("Desamorcage Ending");
+    }
 }

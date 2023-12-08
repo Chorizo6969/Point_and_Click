@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GOOD ENDING.unity
     guid: 9294f37f113f983429a71691f9f36703
+  - enabled: 1
+    path: Assets/Scenes/Desamorcage Ending.unity
+    guid: e11668c3a599e3a4e97cfc63818361b9
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: a89201c91384595448d4ad1f638672df
   m_configObjects: {}
