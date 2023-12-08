@@ -340,7 +340,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: par la suite vous avez perdu votre emploie et vous vivez dans la rue
+  m_text: Par la suite, vous avez perdu votre emploi et vous vivez dans la rue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36e24a56fb9ca4642b76d5c48f9ca01a, type: 2}
   m_sharedMaterial: {fileID: 5807369520725507973, guid: 36e24a56fb9ca4642b76d5c48f9ca01a, type: 2}
@@ -554,7 +554,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.1651, y: -42}
+  m_AnchoredPosition: {x: -8.1651, y: -70}
   m_SizeDelta: {x: 689.9395, y: 42.745}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470871642
@@ -577,7 +577,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vous \xEAtes au chommage "
+  m_text: "Vous \xEAtes au ch\xF4mage !"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36e24a56fb9ca4642b76d5c48f9ca01a, type: 2}
   m_sharedMaterial: {fileID: 5807369520725507973, guid: 36e24a56fb9ca4642b76d5c48f9ca01a, type: 2}
@@ -766,7 +766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.6951, y: 46.688}
+  m_AnchoredPosition: {x: 6.6951, y: 63}
   m_SizeDelta: {x: 719.66, y: 32.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1821784505
@@ -789,7 +789,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Votre maison a exploser et votre famille est mortes
+  m_text: "Votre maison \xE0 exploser et votre famille est morte"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36e24a56fb9ca4642b76d5c48f9ca01a, type: 2}
   m_sharedMaterial: {fileID: 5807369520725507973, guid: 36e24a56fb9ca4642b76d5c48f9ca01a, type: 2}
