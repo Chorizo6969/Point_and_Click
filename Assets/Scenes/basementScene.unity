@@ -978,8 +978,8 @@ MonoBehaviour:
   Quete: {fileID: 1003294620}
   isDone: 0
   TemoinsInterroges: 0
-  NbTemoins: 2
-  IsCompteur: 0
+  NbTemoins: 1
+  IsCompteur: 1
 --- !u!114 &1003294620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1000,7 +1000,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Trouver l''arme du crime'
+  m_text: '- Trouver l''arme du crime '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36e24a56fb9ca4642b76d5c48f9ca01a, type: 2}
   m_sharedMaterial: {fileID: 5807369520725507973, guid: 36e24a56fb9ca4642b76d5c48f9ca01a, type: 2}
