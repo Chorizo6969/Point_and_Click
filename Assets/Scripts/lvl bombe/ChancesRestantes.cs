@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class ChancesRestantes : MonoBehaviour
@@ -11,7 +12,6 @@ public class ChancesRestantes : MonoBehaviour
     public TMP_Text TextNbChances;
     private string TextOriginal;
     public int NbChances = 3;
-    public GameObject ActiverObjet;
     public GameObject DesactiverObjet;
     
     private void Start()
@@ -21,6 +21,10 @@ public class ChancesRestantes : MonoBehaviour
     }
 
 
+    public void ChangeScene_GameOver()
+    {
+        SceneManager.LoadScene("Game Over");
+    }
 
     public void ReduireNbChances()
     {
@@ -28,9 +32,8 @@ public class ChancesRestantes : MonoBehaviour
         TextNbChances.text = TextOriginal + " " + NbChances.ToString();
         if (NbChances == 0)
         {
-            ActiverObjet.SetActive(true);
+            ChangeScene_GameOver();
             DesactiverObjet.SetActive(false);
         }
     }
-    
 }
