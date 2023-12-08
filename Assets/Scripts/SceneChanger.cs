@@ -21,4 +21,9 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("Game Over");
     }
+
+    public void ChangeScene_Menu()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
 }
