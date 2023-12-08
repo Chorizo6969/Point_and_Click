@@ -6,11 +6,19 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    public GameObject scene;
 
     public void ChangeScene()
     {
         SceneManager.LoadScene("basementScene");
 
+    }
+    public void ChangeScene_GoodEnding()
+    {
+        SceneManager.LoadScene("GOOD ENDING");
+
+    }
+    public void ChangeScene_GameOver()
+    {
+        SceneManager.LoadScene("Game Over");
     }
 }
