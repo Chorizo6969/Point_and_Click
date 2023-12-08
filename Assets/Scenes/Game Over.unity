@@ -1287,7 +1287,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Votre maison \xE0 exploser et votre famille est morte"
+  m_text: "Votre maison a explos\xE9 et votre famille est morte"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1f08b81963288844798cff09b775e558, type: 2}
   m_sharedMaterial: {fileID: 6063994855136198239, guid: 1f08b81963288844798cff09b775e558, type: 2}
