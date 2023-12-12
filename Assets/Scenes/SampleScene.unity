@@ -20546,7 +20546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 772273096986074959, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: ValiderQuete
+      value: InterrogerTemoin
       objectReference: {fileID: 0}
     - target: {fileID: 772273096986074959, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
@@ -20844,7 +20844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778530591099155074, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: ValiderQuete
+      value: InterrogerTemoin
       objectReference: {fileID: 0}
     - target: {fileID: 3778530591099155074, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
@@ -20970,6 +20970,14 @@ PrefabInstance:
       propertyPath: IsCompteur
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5053678422754669090, guid: d051fa789104a5948b86e2397abf8714, type: 3}
+      propertyPath: NbTemoins
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053678422754669090, guid: d051fa789104a5948b86e2397abf8714, type: 3}
+      propertyPath: IsCompteur
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5489851270101670856, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_SizeDelta.y
       value: -1355.3
@@ -21088,6 +21096,14 @@ PrefabInstance:
     - target: {fileID: 7434767732793366907, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -113
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489134374675385171, guid: d051fa789104a5948b86e2397abf8714, type: 3}
+      propertyPath: NbTemoins
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489134374675385171, guid: d051fa789104a5948b86e2397abf8714, type: 3}
+      propertyPath: IsCompteur
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7628595790287343944, guid: d051fa789104a5948b86e2397abf8714, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

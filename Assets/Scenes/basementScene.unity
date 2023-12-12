@@ -2089,6 +2089,7 @@ GameObject:
   - component: {fileID: 1761588613}
   - component: {fileID: 1761588615}
   - component: {fileID: 1761588614}
+  - component: {fileID: 1761588616}
   m_Layer: 5
   m_Name: 'PanelDialogue '
   m_TagString: Untagged
@@ -2154,6 +2155,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761588612}
   m_CullTransparentMesh: 1
+--- !u!114 &1761588616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761588612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7471dcb2461306448e0e22fc656c60c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: f03f5af5aa662814aa11ac12ca225758, type: 3}
+  main_cursorTexture: {fileID: 2800000, guid: f03f5af5aa662814aa11ac12ca225758, type: 3}
+  hotSpot: {x: 0, y: 0}
+  sensitivity: 10
 --- !u!1 &1768062535
 GameObject:
   m_ObjectHideFlags: 0
